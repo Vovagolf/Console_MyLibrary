@@ -52,7 +52,7 @@ namespace LibraryApp
                 }
                 else
                 {
-                    Console.WriteLine("❌ Помилка: Твору з таким номером не iснує!");
+                    Console.WriteLine("Помилка: Твору з таким номером не iснує!");
                     Console.WriteLine("Будь ласка, виберiть номер вiд 1 до 5 або 0 для виходу.");
                     ContinuePrompt();
                 }
