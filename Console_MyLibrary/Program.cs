@@ -92,7 +92,7 @@ namespace LibraryApp
         {
             if (string.IsNullOrWhiteSpace(input))
             {
-                Console.WriteLine("❌ Помилка: Пустий ввід!");
+                Console.WriteLine("Помилка: Пустий ввід!");
                 return -1;
             }
 
@@ -100,7 +100,7 @@ namespace LibraryApp
 
             if (!success)
             {
-                Console.WriteLine("❌ Помилка: Введено некоректне число!");
+                Console.WriteLine("Помилка: Введено некоректне число!");
                 return -1;
             }
 
@@ -130,7 +130,7 @@ namespace LibraryApp
                     DisplaySon();
                     break;
                 default:
-                    Console.WriteLine("❌ Помилка: Твору з таким номером не iснує!");
+                    Console.WriteLine("Помилка: Твору з таким номером не iснує!");
                     Console.WriteLine("Будь ласка, виберiть номер вiд 1 до 5.");
                     break;
             }
